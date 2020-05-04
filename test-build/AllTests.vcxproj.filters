@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\tests\AllTests.cpp" />
+    <ClCompile Include="..\tests\ExampleTest.cpp" />
+    <ClCompile Include="..\tests\MyFirstTest.cpp" />
+    <ClCompile Include="..\tests\HallTest.cpp" />
+    <ClCompile Include="..\tests\io-cppumock\io_CppUMock.cpp">
+      <Filter>IoMock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\io-cppumock\io_CppUMockTest.cpp">
+      <Filter>IoMock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IoHwAb\Source\IoHwAb_MockDigital.cpp">
+      <Filter>IoHwAbMock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\RelayTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="IoMock">
+      <UniqueIdentifier>{3165f6f8-d1cb-446f-aa80-21f9816093ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IoHwAbMock">
+      <UniqueIdentifier>{68c6cee1-1eaa-47f6-ac9d-9737647305ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
