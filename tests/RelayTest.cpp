@@ -38,6 +38,6 @@ TEST(RelayTest, IORead)
 	mock("DIO")
 		.expectOneCall("IoHwAb_Digital_Read_MFB") 
 		.andReturnValue(2);
-	LONGS_EQUAL(3, RELAY_Get(0, RelayGetMFB));
+	LONGS_EQUAL(2, RELAY_Get(0, RelayGetMFB));
 
 }
