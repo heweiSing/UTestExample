@@ -27,5 +27,5 @@ TEST(Hall, test2)
 {
 	HALL_ChannelType channel = 1;
 	HALL_GetType cmd = HallGetCount0;
-	LONGS_EQUAL(0, HALL_Get(channel, HallGetCount0));
+	LONGS_EQUAL(2, HALL_Get(channel, HallGetCount0));
 }
