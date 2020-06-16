@@ -16,6 +16,7 @@ TEST_GROUP(Hall)
     }
 };
 
+
 TEST(Hall, test1)
 {
 	HALL_ChannelType channel = 0;
